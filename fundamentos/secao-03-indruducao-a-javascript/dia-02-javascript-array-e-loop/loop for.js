@@ -25,5 +25,15 @@ let nome = ['paula', 'luis', 'lambisgoia', 'rafael', 'lambebola']
 nome.push('lindinho')
 
 for (let index =0; index < nome.length; index += 1) {
-    console.log(nome[index])
+    console.log(nome[index]);
+}
+
+console.log(       )
+
+//EXERCICIOS
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let pindoba = 0; pindoba < groceryList.length; pindoba += 1) {
+    console.log(groceryList[pindoba]);
 }
