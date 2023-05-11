@@ -1,0 +1,18 @@
+Para criar um arquivo:
+	-Comando {touch nome_do_arquivo.tipo_do_arquivo | ex: touch arquivo.txt}
+	-Alem disso touch permite criar varios arquivos enumerados com apenas um unico comando {nome_do_arquivo>{<numero_inicial>..<numero_final>}.<tipo_do_arquivo> | ex: touch varios_arquivos{1..5}.txt};
+
+	*Input[Entrada de Dados] | Output[Saida de Dados]
+
+Inputs e o comando "cat":
+	* O comando "cat" consegue receber valores que o usuario coloca(inputs), e atribuilos à outros arquivos [Para fechar o comando "cat"
+utiliza-se "ctrl+D"].
+	* O sinal ">" é utilizado para atribuir valores para um arquivo.
+	* Para acrescentar mais informaçoes à um arquivo utiliza-se o sinal ">>".	
+	* Para juntar dois arquivos diferentes em um unico arquivo, utiliza-se o comando (cat "nome do arquivo1" "nome do arquivo2" > "nome do arquivo final");
+	
+Outputs e o comando "sort":
+	* O sort é utilizado para ordenar os valores dentro de um arquivo, apenas de maneira visual(output). 
+	*Ele é utilizado da seguinte forma (sort < "nome do arquivo").
+	*Para que essa ordenação se torne input(seja enviada para outro arquivo), utiliza-se o codigo (sort < "nome do arquivo" > "nome do arquivo2").
+	

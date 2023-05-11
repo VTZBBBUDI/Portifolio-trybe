@@ -1,0 +1,25 @@
+	Comando-	-	-	-	-	-	Descrição
+	
+       |----------------------------------------------------------------------------|
+       |git init | Transforma uma pasta em repositório git. |-----------------------|
+       |----------------------------------------------------------------------------|
+       |git add "nome do arquivo" | Adiciona o arquivo especificado em staging |----|             |                          |(espaço temporario antes do commit).   |---------|
+       |-----------------------------------------------------------------------|----|
+       |git add . | Adiciona todos os arquivos modificados em staging |-------------|             |          |(espaço tempoararios antes do commit).  |------------------------|
+       |--------------------------------------------------------------|-------------|
+       |git commit -m "mensagem descrevendo a alteração | Cria um ponto de acesso |-|             |------------------------------------------------|para a alteração e possui|-|             |uma mensagem descrevendo quais as alterações foram feitas.                |-|      
+       |--------------------------------------------------------------------------|-|
+       |git branch | Verifica as branches existentes e mostra a branch atual. |-----|
+       |----------------------------------------------------------------------|-----|
+       |git checkout -b "nome da branch" | Cria uma branch nova (a partir da atual) |             |---------------------------------| e alterna automaticamente para ela.      |
+       |----------------------------------------------------------------------------|
+       |git checkout "nome da branch" | Alterna para a branch especificada. |-------|
+       |--------------------------------------------------------------------|-------|
+       |git log | Mostra os registros dos commits (alterações realizadas). |--------|
+       |-------------------------------------------------------------------|--------|
+       |git merge "nome da branch" | Realiza a mesclagem das alteraçoes   |---------|             |---------------------------| da branch especificada.              |---------|
+       |git status | Mostra o estado atual dos arquivos no repositorio |------------|
+       |----------------------------------------------------------------------------|
+       
+       ****Para usar comandos q usam branches diferentes, merges e que precisam de alteraçoes. É necessario salvar o arquivo primeiro
+       

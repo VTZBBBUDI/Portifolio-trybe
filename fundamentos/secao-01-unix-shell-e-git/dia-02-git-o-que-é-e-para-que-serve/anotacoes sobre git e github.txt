@@ -1,0 +1,29 @@
+	*Prepare-se para se familiarizar com os termos branch, commit e merge.
+	
+	*Você vai utilizar o Git para salvar seu repositório de exercícios e entregar seus projetos.
+	
+	*Git funciona como uma linha do tempo em que [você consegue acessar todas as versões do seu projeto].
+
+	*Ramificação (branch); Captura de mudanças (commit); Mesclagem (merge).]
+	
+	*A [ramificação] funciona como os ramos do seu projeto, ou seja, o seu projeto principal fica em uma branch (ramo) que atualmente é chamada de branch main. O projeto principal é aquele que fica na branch main.
+	
+	*No momento da mesclagem, você precisa atualizar sua branch com a branch main ou atualizar a branch main com suas alterações.
+	
+	*Para que o Git adicione sua alteração a uma zona de stage, prepare as alterações para torná-las uma versão do projeto, desta forma: [git add "nome do arquivo"]. [[Caso você queira adicionar todos os arquivos modificados, utilize o comando "git add ." {sim, utilize o ponto}]].
+	
+	*Uma boa prática é utilizar o comando [git status] antes de [git add] para checar quais arquivos foram modificados. Dessa forma, você consegue visualizar quais arquivos sofreram alteração.
+	
+	*[git add .] ou [git add nome-do-arquivo nome-do-outro-arquivo] adicionam as modificações em staging e informam ao Git que as modificações realizadas vão estar no próximo commit;
+
+    	*[git commit -m "Mensagem sobre as alterações realizadas"] informa quais alterações foram realizadas e cria uma versão do projeto que pode ser acessada a qualquer momento;
+
+    	*[git status] pode ser utilizado sempre que você quiser verificar o que foi alterado.
+    	
+    	*Para criar uma nova branch e acessá-la, você pode utilizar o comando [git checkout -b "nome do arquivo"]
+
+	*Para verificar em qual branch você está, utilize o comando [git branch]
+	
+	*Para acessar a branch main por meio do comando [git checkout main]
+	
+	*Para realizar o merge utiliza-se o comando [git merge "nome-da-branch"]. O nome da branch será apenas o nome, sem o tipo de arquivo. {ex: para fazer merge do arquivo atualiza-readme.md ----- utiliza-se o comando [[git merge atualiza-readme]].

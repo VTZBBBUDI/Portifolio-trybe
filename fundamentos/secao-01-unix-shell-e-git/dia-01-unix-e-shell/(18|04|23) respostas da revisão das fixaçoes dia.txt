@@ -1,0 +1,26 @@
+------------------------------------ Erradas ------------------------------------- 
+1- Sobre o Kernel do UNIX, é correto afirmar que: [Uma das responsabilidades do Kernel é fazer a interação entre os softwares e os hardwares do computador. Outras responsabilidades incluem o gerenciamento da memória, de processos e de arquivos.]
+
+2- Sobre o terminal do UNIX: [Na interface de linha de comando é possível digitar comandos de texto que funcionam como instruções para o computador executar funções específicas.] {Na CLI, ou interface de linha de comando, a pessoa usuária pode digitar comandos que são interpretados pelo sistema para executar funções específicas.}
+
+6- Sobre o comando echo: [ Pode ser utilizado para imprimir informações no terminal.] {Esse comando funciona como "print"].
+
+9- Sobre informaçoes de um arquivo UNIX: [A data e a hora da ultima modificação do arquivo são exemplos de informações que um arquivo UNIX possui. O tipo de arquivo e suas permissoes são exemplos de informações que um arquivo UNIX possui. Tanto o nome do arquivo quanto o nome da pessoa usuaria são exemplos de informações que um arquivo UNIX possui.] {O comando "ls -l" não exibe a data e hora de criação de um arquivo e sim a data e hora da última modificação.}
+
+10- Para executar uma sequencia de comandos e "redirecionar a saida para um arquivo", utilizamos os operadoes "|" e ">", respectivamente. [O operador "|" é utilizado para realizar uma sequência de comandos, enquanto o operador ">" é responsável por redirecionar a saída desses comandos para um arquivo.]
+
+------------------------------------ Corretas ------------------------------------- 
+3- Qual a ordem correta das quatro principais funçoes do Shell: [Inicialmente, o Shell faz a leitura do comando; depois, o interpreta e executa; e, por fim, retorna o resultado para a pessoa usuária.]
+
+4- Descreva as modificações que o comando acima realizara no arquivo{cat >> frutas.txt
+									maçã
+									laranja}: 
+[ Após a execução do comando, serão adicionadas as frutas maçã e laranja ao final do arquivo "frutas.txt".](O comando cat >> é capaz de editar um arquivo adicionando informações ao final dele.)
+									
+5- Qual a melhor descrição da saida do comando {head -15 "myFile.txt"}: [Serão exibidas no terminal as 15 primeiras linhas do arquivo "myFile.txt".]			
+
+7- O comando "who" pode ser utilizado para "listar as pessoas usuárias logadas". Alem disso, ele exibe no terminal informações como "data" e "hora de entrada no sistema".
+
+8- Afirme sobre o operador "<": [O operador "<" é utilizado para direcionar comandos para arquivos, alem disso ele é util para casos em que é necessario manter o arquivo original intacto.](O operador "<" não é utilizado para concatenar comandos. O operador correto para isso é o ";". Além disso, o operador "<" não modifica o arquivo original.)
+
+

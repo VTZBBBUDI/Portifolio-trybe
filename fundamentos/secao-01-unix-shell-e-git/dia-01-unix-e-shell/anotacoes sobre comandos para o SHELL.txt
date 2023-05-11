@@ -1,0 +1,73 @@
+Comandos para Diretorios:
+ls - Listar todos arquivos e diretorios dentro do diretorio
+     *Possui variaçoes especificas como (ls -a){ele lista todos arquivos e diretorios e tambem arquivos ocultos}
+     *Para listar arquivos dentro do diretorio e subdiretorios (ls "nome do arquivo"*)
+     ;
+
+cd - "Change directory" é utilizado para alternar diretorios
+	*Possui variaçoes como (cd .){referencia qual diretorio está selecionado}, (cd ..){retorna para o diretorio anterior};
+
+clear - utilizado para limpar todos os comandos;
+
+mkdir - "Make Directory" utilizado para criar pastas ou diretorios;
+
+pwd - Mostra o diretorio completo (ex: /Users/Gustavo.caetano/Music);
+
+touch - comando que indica para o sistema a intenção de criar um arquivo; 
+
+cp - utilizado para copiar e mover um arquivo {ex: cp arquivo1.txt arquivo2.txt | cp "nome do arquivo para ser copiado" "nome da copia"};
+
+cat - "Concatenate" utilizado para abrir um arquivo {ex: cat arquivo1.txt};
+
+mv - "Move" mover o arquivo para outro diretorio {ex: mv arquivo2.txt /Users/Gustavo.caetano     | mv "nome do arquivo "diretorio escolhido"};
+
+rm - Apagar um arquivo{ex: rm arquivo2.txt | deve estar na mesma passa}
+	*Para pagar diretorios voce deve utilizar o comando (rmdir [esse comando só irá funcionar caso seu diretorio esteja vazio])
+	*Para apagar arquivos dentro de um diretorio, deve-se utilizar o comando (rm -rf "diretorio");
+
+less - Exibir parte dos conteudos em um arquivo, em forma de paginas
+	*Para avançar uma pagina, deve-se apertar a tecla "f", e para retornar uma pagina a tecla "b". Caso deseje sair da lista aperte a letra "q", caso precise de ajuda aperte "h".;
+	
+head - 	Mostra as 10 primeiras linhas do arquivo.
+	*Para escolher até quais linhas vc deseja ver em ordem de cima para baixo, utilize o comando (head -"numero de linhas" "arquivo");
+	
+tail - mostra as ultimas 10 linhas do arquivo.
+	*Para escolher até quais linhas vc deseja ver em ordem de baixo para cima, utilize o comando (tail -"numero de linhas" "arquivo");
+
+grep - Utilizado para fazer busca dentro de arquivos (É Case sensitive)
+	*Para ignorar a "case sensitive", utiliza-se o comando (-i | ou seja | gree -i "palavra-chave" "nome do arquivo").
+	*Para pesquisar todos os valores que nao correspondem com a busca, utiliza-se o comando (-v).
+	*Para pesquisar em qual linha o valor foi encontrado, utiliza-se o comando (-n).
+	*Para saber quantas vezes o valor foi encontrado, utiliza-se o comando (-c).
+	*Alem disso, é possivel utilizar varios desses comandos juntos, como por exemplo {-ic, -in, -iv};
+	
+wc - Utilizado para contar quantas linhas, palavras e caracteres, respectivamente, há no arquivo
+	*Para exclusivamente quantas palavras há no arquivo, utiliza-se o comando (-w | ou seja | wc -w "arquivo")
+	*Para saber a quantidade de linhas (-l)
+	*Para saber a quantidade de caracteres (-c);
+	
+man - utilizado para acessar o manual de certo comando (ex: man ls || man wc || man cd)
+
+whatis - utilizado para ver qual a função de certo comando (ex: whatis cp || whatis cd || whatis grep)
+
+apropos - encontral qual comando irá fazer certa ação (ex: apropos copy)
+
+sort - ordena os valores
+
+who - saber quem possui permissoes para certo arquivo, e quais usuarios utilizam o sistema
+
+|(pipe) - Utilizado para juntar comandos/valores e passar outputs de um comando para outro (ex: who | sort)[resultado de "who" será enviado para o comando "sort"]
+
+find - comando para pesquisar arquivos ou pastas de acordo com parametros passados a ele.
+        *Esses parametros podem ser "name", "date", "size", "type".
+        *Caso não seja atribuido nenhum parametro, o comando ira pesquisar tudo o que estiver dentro do diretorio.
+        *find . -name "nome do arquivo" (irá pesquisar todos os arquivos com mesmo nome ou terminação)
+        *find . -type d (irá pesquisar todos os diretorios)
+        *find . -type f (irá pesquisar todos os arquivos)
+        
+history - mostra o historico de comandos executados no terminal
+        *(history |tail) [mostra os ultimos 10 comandos]
+        
+echo - utilizado em scripts ou no terminal para exibir mensagens na tela ou em um arquivo
+        *(echo "esse é um teste")
+        *echo "esse é um teste" > "nome do arquivo" --> cat "nome do arquivo" [usado para colocar textos dentro de arquivos]

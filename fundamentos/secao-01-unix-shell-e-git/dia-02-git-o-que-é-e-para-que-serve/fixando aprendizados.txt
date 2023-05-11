@@ -1,0 +1,7 @@
+1- A principal função de um sistema de controle de versão é: Auxiliar no gerenciamento de versões de documentos e programas de computadores de uma forma mais fácil, rápida e visando evitar conflitos, o que facilita a recuperação de uma versão "segura" em caso de problemas no arquivo atual.
+
+2- A melhor definição da branch "main" é:  É uma branch como outra qualquer, mas que geralmente vai para produção. Portanto, é a branch que será acessada pelas pessoas usuárias.
+
+3- O comando [git status] mostra o estado atual dos arquivos no repositório.
+
+4- O que acontece quando você faz um merge: As alterações sao agregadas em outra branch, criando um commit nela.
