@@ -58,3 +58,7 @@ boll.shift();
 console.log(boll); // remove a primeira tarefa
 
 console.log(       )
+
+//Outra importante ferramenta é o indexOf(), usado para procurar o índice de um item no array.
+
+console.log(boll.indexOf('Tomar café'))
