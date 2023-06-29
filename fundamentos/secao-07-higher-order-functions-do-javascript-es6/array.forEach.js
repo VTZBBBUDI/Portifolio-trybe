@@ -70,3 +70,9 @@ numbers.forEach((element) => {
 
 //Você também pode deixar esse código em apenas uma linha. 
 //Para isso, basta remover as chaves {} e deixar o console logo após a arrow.
+
+/*
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+numbers.forEach((element) => console.log(element * 2));
+*/
