@@ -1,0 +1,10 @@
+async traz uma promise
+
+
+usando async e await, para achar erros usar try e catch
+
+toda promise, mesmo que errada é tratada como resolvida
+
+o jest nao funciona para fazer testes sem adaptar, por isso se usa:
+"test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest"
+
